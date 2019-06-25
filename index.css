@@ -1,5 +1,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 header {
@@ -65,6 +66,12 @@ nav input {
 #big-container {
     display: flex;
     justify-content: center;
+    max-width: 1280px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #profile-picture img{
@@ -74,6 +81,10 @@ nav input {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     border-bottom: 0;
+}
+
+#left-container {
+    padding-right: 40px;
 }
 
 #left-container i {
@@ -119,4 +130,80 @@ nav input {
 #org-picture {
     height: 35px;
     width: 35px;
+}
+
+#tabs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 10px;
+    width: 100%;
+}
+
+#tabs a {
+    text-decoration: none;
+    color: #586069;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 16px;
+    padding: 8px;
+}
+
+#title {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: baseline;
+    font-weight: 400;
+
+}
+
+#pin {
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+}
+
+#popRepos {
+}
+
+
+ul {
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#popRepos ul li {
+    box-sizing: border-box;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+    width: 49%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+#popRepos li span {
+    color: #0366D6;
+    font-size: 14px;
+}
+
+#popRepos li p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #586069;
+    margin-bottom: 30px;
+}
+
+#popRepos li p:last-child {
+    margin-bottom: 5px;
+}
+
+#popRepos li p a {
+    text-decoration: none;
+    color: #0366D6;
 }
