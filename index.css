@@ -195,11 +195,6 @@ ul {
     margin-bottom: 16px;
 }
 
-#popRepos li span {
-    color: #0366D6;
-    font-size: 14px;
-}
-
 #popRepos li p {
     margin-top: 5px;
     font-size: 12px;
@@ -218,6 +213,12 @@ ul {
 
 #popRepos ul li span:last-of-type {
     color: #586069;
+    font-size: 12px;
+}
+
+#popRepos ul li span:first-of-type{
+    color: #0366D6;
+    font-size: 14px;
 }
 
 #color {
