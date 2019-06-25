@@ -138,6 +138,7 @@ nav input {
     border-bottom: 1px solid #e1e4e8;
     padding: 10px;
     width: 100%;
+    padding-bottom: 0;
 }
 
 #tabs a {
@@ -147,6 +148,13 @@ nav input {
     text-align: center;
     margin-right: 16px;
     padding: 8px;
+    padding-bottom: 15px;
+}
+
+#tabs a:first-child {
+    border-bottom: 2px solid orange;
+    color: black;
+    font-weight: 500;
 }
 
 #title {
@@ -206,4 +214,17 @@ ul {
 #popRepos li p a {
     text-decoration: none;
     color: #0366D6;
+}
+
+#popRepos ul li span:last-of-type {
+    color: #586069;
+}
+
+#color {
+    background-color: #f1e05a;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    display: inline-block;
 }
