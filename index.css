@@ -1,0 +1,122 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #24292e;
+    padding: 16px;
+    font-size: 14px;
+    color: hsla(0,0%,100%,.7);
+    margin-bottom: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#top-left {
+    display: flex;
+    align-items: center;
+}
+
+#top-left a, #top-left i, #top-left input {
+    margin-right: 15px; 
+}
+
+#top-left input {
+    width: 300px;
+    box-sizing: border-box;
+    background-color: #404449;
+    border: 1px solid #404449;
+    border-radius: 3px;
+}
+
+.octicon-mark-github {
+    font-size: 32px;
+}
+
+#top-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#top-right i{
+    margin-right: 20px;
+    font-size: 15px;
+}
+#avatar {
+    width: 20px;
+    height: 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav input {
+    line-height: 20px;
+    min-height: 28px;
+}
+
+#big-container {
+    display: flex;
+    justify-content: center;
+}
+
+#profile-picture img{
+    height: 272px;
+    width: 272px;
+    border: 1px solid #e1e4e8;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 0;
+}
+
+#left-container i {
+    margin-top: -3px;
+    padding: 15px;
+    border: 1px solid #e1e4e8;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #24292e;
+    width: 100%;
+}
+
+#left-container h2 {
+    font-weight: 400;
+    font-style: normal;
+    color: #666;
+    font-size: 20px;
+}
+
+#btn-edit {
+    text-align: center;
+    width: 100%;
+    background-color: #eff3f6;
+    color: black;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: .25em;
+    font: inherit;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#org-box { 
+    color: black;
+    box-sizing: border-box;
+    border-top: 1px solid #e1e4e8 !important;
+}
+
+#org-picture {
+    height: 35px;
+    width: 35px;
+}
